@@ -120,6 +120,5 @@ def predict():
                    confidence=top["confidence"] if top else 0.95,
                    recommendations=tips, detections=detections, annotated=annotated)
 
-
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=False)
+    app.run(host="0.0.0.0", port=7860, debug=False)
